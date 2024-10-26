@@ -386,6 +386,20 @@
         flex-direction: column;
     }
 
+    .company-div {
+        .company {
+            button {
+                width: 60%;
+            }
+        }
+    }
+
+    .btn {
+        .more {
+            width: 50%;
+        }
+    }
+
     .product-list,
     .products {
         flex-direction: column;
@@ -400,8 +414,10 @@
             img {
                 width: 100%;
             }
+
             .info {
-                margin-left: 0;    
+                margin-left: 0;
+
                 .title {
                     font-size: 17px;
                     font-weight: 600;
@@ -409,6 +425,7 @@
             }
         }
     }
+
     .product-list,
     .products {
         flex-wrap: wrap;
@@ -418,7 +435,9 @@
         flex-wrap: wrap;
     }
 }
-@media(max-width:1024px){
+
+@media(max-width:1024px) {
+
     .product-list,
     .products {
         flex-wrap: wrap;
